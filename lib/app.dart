@@ -1,7 +1,5 @@
 import 'package:chatter_bot/utils/routing/routes.dart';
 import 'package:flutter/material.dart';
-
-import 'screens/splash_screen.dart';
 import 'utils/routing/router.dart';
 
 class App extends StatelessWidget {

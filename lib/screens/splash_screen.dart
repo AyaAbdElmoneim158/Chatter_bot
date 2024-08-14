@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:lottie/lottie.dart';
+import '../utils/constants/image_constants.dart';
 import 'main_screen.dart';
 
 class SplashScreen extends StatelessWidget {
@@ -11,7 +12,7 @@ class SplashScreen extends StatelessWidget {
     return AnimatedSplashScreen(
       splash: Center(
         child: LottieBuilder.asset(
-          'assets/lottie/splash_1.json',
+          ImageConstant.splash1,
           height: 150,
           width: 250,
           fit: BoxFit.cover,
