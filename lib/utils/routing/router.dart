@@ -1,6 +1,8 @@
-import 'package:chatter_bot/screens/splash_screen.dart';
+import 'package:chatter_bot/view/splash/splash_screen.dart';
 import 'package:chatter_bot/utils/routing/routes.dart';
 import 'package:flutter/material.dart';
+
+import '../../view/chat/chat_view.dart';
 
 class AppRouter {
   AppRouter._();
@@ -8,6 +10,8 @@ class AppRouter {
     switch (settings.name) {
       case AppRoutes.splashRoute:
         return MaterialPageRoute(builder: (context) => const SplashScreen());
+      case AppRoutes.chatRoute:
+        return MaterialPageRoute(builder: (context) => ChatView());
       default:
         return MaterialPageRoute(builder: (context) => const NotFoundPage());
     }

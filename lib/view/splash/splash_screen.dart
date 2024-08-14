@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:lottie/lottie.dart';
-import '../utils/constants/image_constants.dart';
-import 'test_widgets.dart';
+import '../../utils/constants/image_constants.dart';
+import '../chat/chat_view.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -18,7 +18,7 @@ class SplashScreen extends StatelessWidget {
           fit: BoxFit.cover,
         ),
       ),
-      nextScreen: const TestWidgets(),
+      nextScreen: ChatView(),
       splashTransition: SplashTransition.scaleTransition,
       backgroundColor: Colors.grey[850]!,
     );

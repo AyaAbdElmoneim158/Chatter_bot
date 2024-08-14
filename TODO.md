@@ -6,15 +6,15 @@ Project Description
 
 ### Todo
 
-- [ ] Add Utils  
-- [ ] Add Controller  
-- [ ] Add Ui  
 
 ### In Progress
 
 
 ### Done ✓
 
+- [x] Add Ui  
+- [x] Add Controller  
+- [x] Add Utils  
 - [x] Add Routing  
 - [x] Add Animation Splash  
 - [x] home: const SplashScreen()  
